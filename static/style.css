@@ -1,0 +1,13 @@
+@font-face {
+    font-family: customfont;
+    src: url("Kingofthieves-v6mL.ttf");
+}
+h1 {
+    font-family: customfont, sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    color:white;
+    background-color:#383A54;
+}

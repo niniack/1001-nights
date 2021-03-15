@@ -1,0 +1,5 @@
+title = "Visualizing the 1001 Nights"
+visualization_title = "Visualization"
+input_title = "Input"
+bg_color = "#383A54"
+colorscale = "darkmint"
