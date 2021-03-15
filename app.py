@@ -7,6 +7,8 @@ app.layout = main_layout
 # Include callbacks (Needs to be assigned after setting layout up)
 from callbacks.main import *
 
+server = app.server
+
 # Initializing app
 if __name__ == "__main__":
     app.run_server(debug=True)
