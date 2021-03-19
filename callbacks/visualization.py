@@ -1,16 +1,16 @@
 import numpy as np
 from server import app
 from dash.dependencies import Input, Output
-from data.data import build_sunburst
+from data.data import build_sunburst, update_sunburst
+from app import fig
 
 
 @app.callback(
     Output("output-data", component_property="figure"),
     [
-        Input("input-stdv", "value"),
+        Input("story", "value"),
     ],
 )
-def update_visualization(dummy):
-    # Generates a plotly chart
-    sunburst = build_sunburst()
-    return sunburst
+def update_visualization(story):
+    update_sunburst(story, fig)
+    return fig

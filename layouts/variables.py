@@ -1,5 +1,5 @@
 title = "Visualizing the 1001 Nights"
 visualization_title = "Visualization"
-input_title = "Input"
+input_title = "Directory of Stories"
 bg_color = "#383A54"
 colorscale = "darkmint"

@@ -1,5 +1,6 @@
 from server import app
 from layouts.main import main_layout
+from data.data import build_sunburst
 
 # Include layout
 app.layout = main_layout
@@ -8,6 +9,7 @@ app.layout = main_layout
 from callbacks.main import *
 
 server = app.server
+fig = build_sunburst()
 
 # Initializing app
 if __name__ == "__main__":
