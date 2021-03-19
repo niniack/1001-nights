@@ -1,5 +1,7 @@
 # Visualizing the 1001 Nights
 
+Check out: http://nights-vis.herokuapp.com/
+
 The 1001 Nights have the unique quality of having multi-layered stories. Several
 tales are "frame stories" which contain multiple tales within.
 
